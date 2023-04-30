@@ -43,7 +43,7 @@ if(T == "A" || P == "A" || R == "D" )
 {
     Console.WriteLine("A luz de advertência estará ATIVADA.");
 }
-if (T != "A" && P != "A" && R != "D")
+else
 {
     Console.WriteLine("A luz de advertência estará DESATIVADA.");
 }
